@@ -12,7 +12,7 @@ import (
 var swarmSize = flag.Int("swarm-size", 20, "The size of the boid swarm")
 var screenWidth = flag.Int("width", 80, "The number of columns to use for the screen")
 var screenHeight = flag.Int("height", 20, "The number of lines to use for the screen")
-var fps = flag.Int("fps", 10, "The frames to (attempt to) render per second")
+var fps = flag.Int("fps", 10, "The frames to render per second")
 var duration = flag.Int("duration", 10, "The number of seconds to render")
 
 var cohesion = flag.Float64("cohesion", 0.5, "The cohesion constant")
